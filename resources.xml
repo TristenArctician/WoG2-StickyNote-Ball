@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<ResourceManifest>
+
+  <Resources id="ball_StickyNote">
+
+    <!-- Unique Sounds -->
+    <SetDefaults path="res/balls/StickyNote/" idprefix="SOUND_BALL_STICKYNOTE_" />
+
+    <Sound id="CHIRP01" path="chirp01"/>
+    <Sound id="CHIRP02" path="chirp02"/>
+    <Sound id="CHIRP03" path="chirp03"/>
+    <Sound id="CHIRP04" path="chirp04"/>
+    <Sound id="CHIRP05" path="chirp05"/>
+
+    <SetDefaults path="res/balls/StickyNote/" idprefix="IMAGE_BALL_STICKYNOTE_" />
+    
+    <Image id="BODY" path="body"/>
+    <Image id="STRAND" path="strand"/>
+    <Image id="SPLAT" path="splat"/>
+
+  </Resources>
+
+</ResourceManifest>
