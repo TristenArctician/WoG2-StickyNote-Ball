@@ -49,7 +49,7 @@
 	"opensExitUnattached":	false,
 	"affectsAutoboundsAttached":	true,
 	"affectsAutoboundsUnattached":	false,
-	"burnTime":	0.10000000149011612,
+	"burnTime":	12,
 	"detonateForce":	0,
 	"detonateRadius":	0,
 	"detonateKillBalls":	true,
@@ -145,10 +145,10 @@
 		"imageId":	"IMAGE_BALL_GENERIC_ARM_INACTIVE_SHADOW"
 	},
 	"strandIgniteDelay":	0,
-	"strandBurnSpeed":	0.05000000074505806,
-	"strandFireParticlesId":	"",
+	"strandBurnSpeed":	0.25,
+	"strandFireParticlesId":	"poisonArmBurn",
 	"strandBurntImageId":	{
-		"imageId":	"IMAGE_BALL_STICKYNOTE_STRAND"
+		"imageId":	"IMAGE_BALL_MATCHSTICK_SPRING_GOO_BURNT"
 	},
 	"strandBackgroundImageId":	{
 		"imageId":	""
@@ -766,6 +766,20 @@
 				}],
 			"soundEvent":	{
 				"soundEvent":	9
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_STICKYNOTE_IGNITE"
+				}],
+			"soundEvent":	{
+				"soundEvent":	11
+			}
+		}, {
+			"soundIds":	[{
+					"soundId":	"SOUND_BALL_STICKYNOTE_POP"
+				}],
+			"soundEvent":	{
+				"soundEvent":	13
 			}
 		}],
 	"flashAnimation":	{

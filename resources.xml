@@ -12,6 +12,26 @@
     <Sound id="CHIRP04" path="chirp04"/>
     <Sound id="CHIRP05" path="chirp05"/>
 
+	<Sound id="IGNITE01"    	      	path="igniteBurn01"/>
+	<Sound id="IGNITE02"    	      	path="igniteBurn02"/>
+	<Sound id="IGNITE03"    	      	path="igniteBurn03"/>
+	<Sound id="IGNITE04"    	      	path="igniteBurn04"/>
+   <Sound id="IGNITE"      	      	path="res/balls/StickyNote/IGNITE;SOUND_BALL_STICKYNOTE_IGNITE01;SOUND_BALL_STICKYNOTE_IGNITE02;SOUND_BALL_STICKYNOTE_IGNITE03;SOUND_BALL_STICKYNOTE_IGNITE04;"/>
+	
+	<Sound id="POP01"    	      		path="pop01"/>
+	<Sound id="POP02"    	      		path="pop02"/>
+	<Sound id="POP03"    	      		path="pop03"/>
+	<Sound id="POP04"    	      		path="pop04"/>
+	<Sound id="POP05"    	      		path="pop05"/>
+	<Sound id="POP06"    	      		path="pop06"/>
+	<Sound id="POP07"    	      		path="pop07"/>
+   <Sound id="POP"      	      		path="res/balls/StickyNote/POP;SOUND_BALL_STICKYNOTE_POP01;SOUND_BALL_STICKYNOTE_POP02;SOUND_BALL_STICKYNOTE_POP03;SOUND_BALL_STICKYNOTE_POP04;SOUND_BALL_STICKYNOTE_POP05;SOUND_BALL_STICKYNOTE_POP06;SOUND_BALL_STICKYNOTE_POP07;"/>
+	
+	<Sound id="SIZZLE01"    	      	path="sizzle01"/>
+	<Sound id="SIZZLE02"    	      	path="sizzle02"/>
+	<Sound id="SIZZLE03"    	      	path="sizzle03"/>
+   <Sound id="SIZZLE"      	      	path="res/balls/StickyNote/SIZZLE;SOUND_BALL_STICKYNOTE_SIZZLE01;SOUND_BALL_STICKYNOTE_SIZZLE02;SOUND_BALL_STICKYNOTE_SIZZLE03;"/>
+
     <SetDefaults path="res/balls/StickyNote/" idprefix="IMAGE_BALL_STICKYNOTE_" />
     
     <Image id="BODY" path="body"/>
